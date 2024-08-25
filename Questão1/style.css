@@ -1,0 +1,48 @@
+/* Geral */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Seção principal */
+main {
+    padding: 20px;
+}
+
+/* Paragrafos */
+main p {
+    display: inline;
+    background-color: lightgray;
+    color: #333;
+    border: 2px solid#ccc;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* Rodapé */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+main p:hover {
+    background-color: #999;
+    border-color: #222;
+    text-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
