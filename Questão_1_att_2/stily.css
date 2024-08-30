@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+    height: 500px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+aside{
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    height: 20px;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    height: 40px;
+}
