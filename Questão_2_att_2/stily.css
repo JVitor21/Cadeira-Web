@@ -1,0 +1,71 @@
+/* Define o fundo azul para toda a página */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3498db;
+    /* Azul */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contêiner que envolve todos os cards */
+.container {
+    display: flex;
+    flex-direction: column;
+    /* Organiza os cards em uma coluna */
+    gap: 5px;
+    /* Espaçamento entre os cards */
+    width: 100%;
+    max-width: 400px;
+    /* Limita a largura máxima do contêiner */
+    padding: 200px;
+    /* Adiciona um pouco de padding */
+}
+
+/* Define a estrutura do card */
+.card {
+    background-color: #fff;
+    /* Branco */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    /* Faz o card preencher a largura do contêiner */
+}
+
+/* Aplica estilos ao elemento */
+div  .card:hover{
+    background-color: #a0a0a0;
+    border-color: #494949;
+    text-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para a imagem do perfil */
+.profile-img {
+    border-radius: 50%;
+    margin-right: 16px;
+    width: 100px;
+    height: 100px;
+}
+
+/* Estilo para as informações do usuário */
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+p {
+    margin: 4px 0 0;
+    font-size: 14px;
+    color: #777;
+}
