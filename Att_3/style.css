@@ -29,13 +29,13 @@ button{
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #0077;
+    background-color: #0056b3;
     color: white;
     cursor: pointer;
 }
 
 button:hover{
-    background-color: #0056b3;
+    background-color: #0077;
 }
 
 #resultado{
