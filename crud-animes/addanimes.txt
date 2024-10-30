@@ -1,0 +1,16 @@
+http://localhost:3000/animes
+GET /animes: Para listar todos os animes.
+
+GET /animes/:id: Para listar um anime específico pelo id.
+
+POST /animes:
+{
+  "name": "One Piece",
+  "genre": "Aventura",
+  "studio": "Toei Animation"
+}
+Assim você adiciona um novo anime
+
+PUT /animes/:id: Para atualizar um anime existente pelo id.
+
+DELETE /animes/:id: Para deletar um anime pelo id.
